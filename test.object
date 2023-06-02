@@ -23,7 +23,7 @@ parent:
 components:
   - name: image-build
     image:
-      imageName: python-image:latest
+      imageName: python-image2:latest
       dockerfile:
         uri: docker/Dockerfile
         buildContext: .
